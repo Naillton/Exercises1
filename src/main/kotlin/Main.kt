@@ -7,6 +7,7 @@ fun main() {
     println("digite o segundo numero: ")
     val n2: Int = sc.nextInt()
     val op = Operation(n1, n2)
+    sc.close()
     println(op.sum())
     println(op.sub())
     println(op.mult())
